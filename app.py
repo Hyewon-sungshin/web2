@@ -8,17 +8,17 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('home.html')
 
 
 @app.route('/address')
 def address():
-    return render_template('generic.html')
+    return render_template('address.html')
 
 
 @app.route('/reservation')
 def reservation():
-    return render_template('elements.html')
+    return render_template('reservation.html')
 
 
 if __name__ == '__main__':

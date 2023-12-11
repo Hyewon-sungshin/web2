@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>StudyCafe - Reservation-check</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../static/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Reservation</strong></a>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>FAQ</h1>
+									</header>
+													<form method="post" action="#">
+														<div class="row gtr-uniform">
+															<div class="col-12">
+																<h3>질문 및 건의사항</h3>
+																<textarea name="demo-message" id="demo-message" placeholder="질문 및 건의 사항을 자유롭게 적어주세요." rows="6"></textarea>
+															</div>
+															<!-- Break -->
+															<div class="col-12" >
+																<ul class="actions" style="text-align: center;">
+																	<li><input type="button" value="등록" class="primary" id="reservation_submit"/></li>
+																</ul>
+															</div>
+														</div>
+													</form>
+									<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+									<df-messenger
+											intent="WELCOME"
+											chat-title="CAFE"
+											agent-id="32153cbe-8131-43ac-ba4a-8761586de275"
+											language-code="ko"
+									></df-messenger>
+								</section>
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="/">Homepage</a></li>
+										<li>
+											<span class="opener">Reservation</span>
+											<ul>
+												<li><a href="/reservation">Book</a></li>
+												<li><a href="/reservation/check">My Reservation</a></li>
+											</ul>
+										</li>
+<!--										<li><a href="/address">Address</a></li>-->
+										<li><a href="/qna">FAQ</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+<!--									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>-->
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">StudyCafe123@mail.com</a></li>
+										<li class="icon solid fa-phone">(010) 1234-5678</li>
+										<li class="icon solid fa-home">서울시 가나구 다나로 123, <br />
+										ABC타워 1층</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../static/js/jquery.min.js"></script>
+			<script src="../static/js/browser.min.js"></script>
+			<script src="../static/js/breakpoints.min.js"></script>
+			<script src="../static/js/util.js"></script>
+			<script src="../static/js/main.js"></script>
+
+	</body>
+</html>
